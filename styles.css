@@ -5,8 +5,9 @@
   font-family: 'Raleway', sans-serif;
   
 }
-a{
-  text-decoration:none;
+a {
+	text-decoration: none;
+	text-align: center;
 }
 h3{
   text-align:center;
@@ -38,9 +39,10 @@ body{
   border-style:solid;
   border-color:#8fdd3c;
   justify-content:space-between;
-  width:60vw;
+  max-width: 1150px;
   margin:0 auto;
   padding:0px;
+  width:55%;
 }
 
 .nav-item{
@@ -49,7 +51,7 @@ body{
  font-weight:900;
   padding:5px 5px;
   flex-grow:1;
-  flex-shrik:1;
+  flex-shrink:1;
   text-align: center;
 }
 .input-search{
@@ -77,22 +79,24 @@ input[type="search"]{
 }
 #hero-img{
   display:block;
-  width:60vw;
+  width:55%;
+  max-width: 1150px;
   margin:0 auto;
-  height:55vh;
-  position:relative;
+  height:450px;
+   position:relative;
   background-image:url("https://i.ibb.co/7GMyc48/boimela-01.jpg");
    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom:25px;
+  border-radius:;
 }
 #hero-slogaan{
   position:absolute;
   left:0;
   right:0;
   bottom:0;
-  width:60vw;
+  width:100%;
   background-color:rgba(0,0,0,.4);
     padding-left:15px;
   padding-right:15px;

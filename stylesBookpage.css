@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+*{
+  box-sizing:border-box;
+  font-family: 'Raleway', sans-serif;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+}
+p{
+  font-size: 15px;
+  white-space: pre-line;}
+h4{
+    text-align: center;
+}h3{
+  margin-bottom: .5em;
+}
+body{
+  margin:0;
+  background-color:#ffffff;
+}
+.bangla{
+  font-size:2.5em;}
+#logo-img{
+  display:block;
+  margin:0 auto;
+  width:250px;
+  margin-top:10px;
+}
+#logo{
+  margin:0;
+}
+#slogaan{
+  display:block;
+  text-align:center;
+  margin-top:2px;
+  color:#89968a;
+  font-size:1.3em;
+}
+#nav-bar {
+  display:flex;
+  border-style:solid;
+  border-color:#8fdd3c;
+  justify-content:space-between;
+  max-width: 1150px;
+  margin:0 auto;
+  padding:0px;
+  width:50%;
+}
+
+.nav-item{
+  background-color:#8fdd3c;
+  color:#89968a;
+ font-weight:900;
+  padding:5px 5px;
+  flex-grow:1;
+  flex-shrink:1;
+  text-align: center;
+}
+.input-search{
+  height:100%;
+  padding:0;
+    margin:0;
+  background-color:#8fdd3c;
+  border:none;
+  width:100%;
+   font-weight:900;
+  color:black;
+  font-size:14px;
+}
+#s{
+  height:100%;
+ padding:4px;
+}
+#nav-bar a{
+  text-decoration:none;
+  color:Black;
+  opacity:.6;
+}
+input[type="search"]{
+  opacity:0.6;
+}
+///////////////////MAIN///////////////////////////
+
+.book-download a{
+  display: block;
+}
+.book-download{
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+}
+
+
+main {
+  width:50%;
+  margin:0 auto;
+  max-width: ;
+  margin-top: 20px;
+  display: flex;
+  justify-content:start;
+ 
+}
+.book-down-name{
+    
+}
+.book-overview {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left:40px ;
+}
+.book-overview h4{
+  display: inline;
+
+}
+span{
+  display: inline;
+}
+.book-description {
+  color: black;
+  text-align: justify;
+  width: 100%;
+  white-space: pre-wrap;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+///BOOK SECTION////////////////////////////////////////////////
+.book-section{
+    width:60vw;
+    display:flex;
+    margin:0 auto;
+    margin-top:10px;
+    align-text:center;
+    flex-direction:column;
+    }
+  .book-h2{
+    display:block;
+    text-align:center;
+    height:1em;
+    line-height:1;
+    margin:0;
+    }
+  .book-h2::before ,.book-h2::after{
+    content:'o--';
+   
+   color:black;
+    height:10px;
+   
+  
+  }
+  .book-h2::after{
+    content:'--o';
+   
+   color:black;
+    height:10px;
+   
+  
+  }
+  .book-section h2{
+    color:#395818;
+  }
+  .book-row{
+    display:flex;
+    flex-direction:row;
+    align-items:space-between;
+    width:100%;
+   padding: 10px 0;
+    height:336px;
+    margin:5px 0;
+    }
+  .book-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:33.333%;
+    justify-content:flex-start;
+    padding:10px 0px;
+    height:100%;
+  }
+  .book-img:hover{
+    box-shadow:0 0 10px 2px rgba(0,0,0,.4);
+    transition: spread 5s;
+    border-radius:1px;
+  }
+  .book-img{
+    width:150px;
+  height: auto;
+    max-height:227.067px;
+    margin-top:5px;}
+  .author-div{
+    display:flex;
+   }
+   .book-down-img{
+       width: 200px;
+       margin-top: 25px;
+   }
+  .author-name{
+    margin:0 3px;
+     font-size:em;
+    color:#5c5c5c;
+    }
+  .book-name{
+    margin:5px auto;
+    font-size:1.2em;
+    color:#f12719;
+  }
+  .book-down-name {
+    margin-bottom: .5em;
+  }
