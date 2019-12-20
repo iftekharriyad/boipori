@@ -16,6 +16,7 @@ body{
   margin:0;
   background-color:#ffffff;
 }
+
 .bangla{
   font-size:2.5em;}
 #logo-img{
@@ -34,16 +35,31 @@ body{
   color:#89968a;
   font-size:1.3em;
 }
+#nav-bar li{
+  list-style: none;
+}
+#nav-bar li ul{
+  position: absolute;
+  display: none;
+  width: inherit;
+}
+#nav-bar li:hover ul{
+    display: block;
+  }
+  
 #nav-bar{
   display:flex;
-  border-style:solid;
-  border-color:#8fdd3c;
+ 
   justify-content:space-between;
   max-width: 1150px;
   margin:0 auto;
   padding:0px;
   width:55%;
+  border-radius: 1px;
+  box-shadow:  0px 1px 2px #395818;
+  margin-bottom: 1px;
 }
+
 
 .nav-item{
   background-color:#8fdd3c;
@@ -54,16 +70,19 @@ body{
   flex-shrink:1;
   text-align: center;
 }
-.input-search{
+.input-search {
   height:100%;
   padding:0;
     margin:0;
   background-color:#8fdd3c;
-  border:none;
+  border:solid 3px #8fdd3c;
   width:100%;
    font-weight:900;
   color:black;
   font-size:14px;
+}
+.input-search:focus {
+  border: solid 1px #8fdd3c;
 }
 #s{
   height:100%;
@@ -73,6 +92,7 @@ body{
   text-decoration:none;
   color:Black;
   opacity:.6;
+  display: block;
 }
 input[type="search"]{
   opacity:0.6;
@@ -84,7 +104,7 @@ input[type="search"]{
   margin:0 auto;
   height:450px;
    position:relative;
-  background-image:url("https://i.ibb.co/7GMyc48/boimela-01.jpg");
+  background-image:url("Hero\ images/3.jpg");
    background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,10 +117,10 @@ input[type="search"]{
   right:0;
   bottom:0;
   width:100%;
-  background-color:rgba(0,0,0,.4);
+  background-color:rgba(0, 0, 0, 0.7);
     padding-left:15px;
   padding-right:15px;
-  color:rgba(255,255,255,.9);
+  color:rgba(255, 255, 255, 0.9);
 }
 .book-section{
   width:60vw;
@@ -177,4 +197,132 @@ height: auto;
   font-size:1.2em;
   color:#f12719;
 }
+#btn-more{
+  background-color: #89c747;
+   
+  margin: 0 auto;
+  color:white;
+  display: block;
+  width: 130px;
+  border-radius: 1px;
+  padding: 6px 6px;
+  text-shadow: 0px 0px 1px #395818;
+  font-weight:600;
+  box-shadow:  0px 1px 2px #558027 ;
+  margin-top: 25px;
+  line-height: 1.375rem;
+letter-spacing: .03125rem;
+}
+#btn-more:hover{
 
+  background-color:rgb(106, 158, 50)  ;
+ 
+}
+#btn-more:active {
+  position: relative;
+  top:1px;
+}
+/*Footer ///////////////////////////////////        */
+footer{
+  width: 100%;
+  background-color: #e7e6e6;
+  margin-top: 60px;
+}
+#footer-main {
+  display: flex;
+  width: 55%;
+  border-top:solid 2px rgb(163, 163, 163);
+  margin: 0 auto;
+  padding-top: 40px;
+  margin-top: px;
+  color: black;
+
+}
+#footer-main a{
+  color: dimgray;
+}
+
+#footer-logo {
+  width: 50%;
+}
+
+#footer-here {
+  margin-left: auto;
+}
+
+#footer-main p {
+  white-space: normal;
+  font-size: 14px;
+}
+
+#footer-logo-img {
+  margin: 0 auto;
+  margin-bottom: -2px;
+  width: 60%;
+}
+
+#footer-logo {
+  text-align: ;
+}
+
+#footer-main p {
+  margin: 0;
+  color: slategrey;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 0;
+}
+
+#footer-here {
+  width: 12%;
+  text-align: inherit;
+}
+
+#footer-and-here {
+  width: 12%;
+}
+
+#footer-here h3 {
+  margin: 0 0;
+  text-align: inherit;
+  font-size: 17px;
+}
+
+#footer-and-here h3 {
+  margin: 0 0;
+  text-align: left;
+  font-size: 17px;
+}
+
+#footer-here a {
+  color: dimgray;
+  font-size: 14px;
+}
+#footer-and-here a{
+  color: dimgray;
+  font-size: 14px;
+}
+#lower-footer{
+  margin:0 auto;
+color: dimgray;
+font-size: 13px;
+padding: 10px;
+width: 55%;
+display: flex;
+justify-content: start;
+}
+#terms{
+  padding: 0 15px;
+  margin-left: auto;
+  color: dimgray;
+}
+#terms a, #privacy a{
+  color: dimgray;
+  text-decoration: underline;
+}

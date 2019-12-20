@@ -1,23 +1,55 @@
 <!DOCTYPE html>
 <html>
-<header id="header">
-  <link rel="stylesheet" type="text/css" href="stylesBookpage.css">
-  <div id="logo">
-    <a href="boipori.ga"><img id="logo-img" src="https://i.ibb.co/HqL76gL/boipori-ga.png" alt="boipori-ga" border="0"></a>
-  </div>
-  <title>Boipori:Online Bookstore in Bangladesh</title>
-</header>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesBookpage.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Boipori:Download thousands of Bangla books for free</title>
+    <script type="application/ld+json">
+      {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "breadcrumb": "Books > Marketing > JSON",
+            "mainEntity":{
+                    "@type": "Book",
+                    "author": "http://www.example.com/author.html",
+                    "bookFormat": "http://schema.org/EBook",
+                    "datePublished": "2015-05-01",
+                    "image": "coverImage.jpg",
+                    "inLanguage": "English",
+                    "isbn": "00000000",
+                    "name": "The Title of Book",
+                    "numberOfPages": "1234",
+                    "offers": {
+                      "@type": "Offer",
+                      "availability": "http://schema.org/InStock",
+                      "price": "9.99",
+                      "priceCurrency": "USD"
+                    },
+                    "publisher": "O'Json Publishing",
+                    "aggregateRating": {
+                      "@type": "AggregateRating",
+                      "ratingValue": "4",
+                      "reviewCount": "12"
+                    }
+                  }
+          }
+      </script>
+  </head>
 <body>
+  <header id="header">
+  <div id="logo">
+    <a href="index.html"><img id="logo-img" src="https://i.ibb.co/HqL76gL/boipori-ga.png" alt="boipori-ga" border="0"></a>
+  </div>
 <h1 id="slogaan">Online Bookstore in Bangladesh</h1>
 <nav id="nav-bar">
   <div class="nav-item">
-    <a href="">Home</a>
+    <a href="index.html">Home</a>
   </div>
   <div class="nav-item">
   <a href=""> Best Seller</a>
   </div>
   <div class="nav-item">
-    <a href=""> Catagories</a>
+    <a href="" > Catagories</a>
   </div>
   <div class="nav-item">
     <a href="">Authors</a>
@@ -30,12 +62,13 @@
    <a href=""> Discount</a>
   </div>
 </nav>
+</header>
 <main>
     <div class="book-download"><img class="book-down-img" src="https://i.ibb.co/9Zy6fqr/cover.jpg" alt="The Vinci Code book cover">
-    <a href="Books pdf/[Dan_Brown]_The_Da_Vinci_Code(BookFi).pdf" class="btn-download">Download</a>
+    <a href="Books pdf/[Dan_Brown]_The_Da_Vinci_Code(BookFi).pdf" class="btn-download" target="_blank">Download</a>
     </div>
     <div class="book-overview">
-        <h2 class="book-down-name">The Da Vinci Code</h2> <span class="by">by<a href="" class="author-name"><h4>Dan Brown</h4></a></span>
+        <h2 class="book-down-name">The Da Vinci Code</h2> <span class="by">by<a href="" class="author-name" target="_blank"><h4>Dan Brown</h4></a></span>
         <h3>Overview:</h3>
         <p class="book-description">Nominated as one of America's best-loved novels by PBS's The Great American Read.
 
@@ -92,5 +125,39 @@ Page Count: 624
       
     </div>
   </section>
+  <footer>
+    <div id="footer-main">
+      <div id="footer-logo">
+        <img id="footer-logo" src="logo/boipori-ga-footer.png" alt="Site logo">
+        <p>Online Bookstore based in Bangladesh.
+           Our goal is provide you the best quality ebooks for free!!
+        </p>
+      </div>
+      <div id="footer-here">
+        <h3>HERE</h3>
+         <ul>
+           <li><a href="" target="_blank">Best books</a></li>
+           <li><a href="" target="_blank">Authors</a></li>
+           <li><a href="" target="_blank">Catagories</a></li>
+           <li><a href="" target="_blank">New books</a></li>
+           <li><a href="" target="_blank">About us</a></li>
+         </ul> 
+      </div>
+      <div id="footer-and-here">
+          <h3>AND HERE</h3>
+          <ul>
+            <li><a href="" target="_blank">Facebook</a></li>
+            <li><a href="" target="_blank">Twitter</a></li>
+            <li><a href="" target="_blank">Email</a></li>
+          </ul> 
+       </div>
+    </div>
+    <div id="lower-footer">
+      <div id="copyright">Copyright &copy; 2019-20 Boipori. All rights reserved. </div>
+      <div id="terms"><a href="" target="_blank">Terms</a></div>
+      <div id="privacy"><a href="" target="_blank">Privacy</a></div>
+    </div>
+
+  </footer>
 </body>
 </html>
