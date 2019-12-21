@@ -1,10 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
+:root{
+  --main-green:#8fdd3c;
+  --main-header-color:#89968a;
+  --main-red:#f12719;
+  --main-grey:dimgray;
+}
 *{
   box-sizing:border-box;
   font-family: 'Raleway', sans-serif;
   
 }
+
 a {
 	text-decoration: none;
 	text-align: center;
@@ -109,7 +116,6 @@ input[type="search"]{
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom:25px;
-  border-radius:;
 }
 #hero-slogaan{
   position:absolute;
@@ -262,7 +268,6 @@ footer{
 }
 
 #footer-logo {
-  text-align: ;
 }
 
 #footer-main p {

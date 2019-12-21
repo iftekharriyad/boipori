@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-
+:root{
+  --main-green:#8fdd3c;
+  --main-header-color:#89968a;
+  --main-red:#f12719;
+  --main-grey:dimgray;
+}
 *{
   box-sizing:border-box;
   font-family: 'Raleway', sans-serif;
@@ -18,7 +23,7 @@ h4{
 }
 body{
   margin:0;
-  background-color:#ffffff;
+  background-color: white;
 }
 .bangla{
   font-size:2.5em;}
@@ -82,6 +87,42 @@ body{
 input[type="search"]{
   opacity:0.6;
 }
+.breadcrumb-list{
+  display: flex;
+  width:50%;
+  margin: 0 auto;
+  justify-content: start;
+  padding: 0;
+  background-color: antiquewhite;
+  border-radius: 3px;
+  margin-top: 3px;
+}
+.breadcrumb-item{
+  padding: 5px 5px;
+
+  list-style: none;
+}
+.breadcrumb-item a{
+  text-decoration: underline;
+  font-size: .9em;
+  color: blue;
+
+}
+.breadcrumb-item:after{
+  content: '\003E';
+  padding:0px 5px;
+  font-size: 1.0em;
+ 
+}
+.breadcrumb-item:last-child a{
+  color:black;
+  pointer-events: none;
+  text-decoration: none;
+  font-weight: 800;
+  }
+  .breadcrumb-item:last-child::after{
+    content: none;
+  }
 ///////////////////MAIN///////////////////////////
 
 .book-download a{
@@ -92,11 +133,9 @@ input[type="search"]{
     display:flex;
     flex-direction:column;
 }
-
-
 main {
   width:50%;
-  margin:0 auto;
+  margin: 0 auto;
   max-width: ;
   margin-top: 0px;
   display: flex;
@@ -209,7 +248,7 @@ span{
    }
    .book-down-img{
        width: 200px;
-       margin-top: 25px;
+       margin-top: 28px;
        box-shadow:  0px 1px 2px black ;
    }
   .author-name{
@@ -224,6 +263,7 @@ span{
   }
   .book-down-name {
     margin-bottom: .5em;
+    margin-top: 18px;
   }
   .btn-download{
     background-color: #89c747;
